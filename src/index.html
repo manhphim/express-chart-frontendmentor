@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./script.js" type="module"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex; height: inherit; flex-direction: column; align-items: center; justify-content: center;">
+        <div class="balance__container">
+            <div class="balance__info">
+                <p>My balance</p>
+                <p style="font-weight: 700; font-size: 1.8rem">$921.48</p>
+            </div>
+            <div class="balance__logo">
+                <object data="./../images/logo.svg" width="64" height="64"> </object>
+    
+            </div>
+        </div>
+        <div class="chart__container">
+            <p style="font-weight: 700; font-size: 1.5rem">Spending - Last 7 days</p>
+            <div id="chart"></div>
+            <span style="background-color: #ccc; height: 1px; opacity: 0.3;"></span>
+            <div class="spending__container">
+                <p>Total this month</p>
+                <div class="spending__container-stat">
+                    <div class="spending-stat">
+                        <p style="font-weight: 700; font-size: 2.2rem">$478.33</p>
+                        <div style="text-align: end">
+                            <p style="font-weight: 700;">+2.4%</p>
+                            <p>from last month</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
